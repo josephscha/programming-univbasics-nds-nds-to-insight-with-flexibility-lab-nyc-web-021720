@@ -103,6 +103,7 @@ def movies_with_directors_set(source)
   while index < collection.length do 
     studios = collection[index][:studio]
     gross_total = collection[index][:worldwide_gross]
+    if results[studio_name] == True
 end
 
 # ----------------    End of Your Code Region --------------------
