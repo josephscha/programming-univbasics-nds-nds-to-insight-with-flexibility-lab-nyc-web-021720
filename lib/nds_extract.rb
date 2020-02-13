@@ -104,7 +104,7 @@ def movies_with_directors_set(source)
     directors = source[index]
     directors_name = directors[:name]
     directors_movie = directors[:movies]
-    results << movies_with_director_key
+    results << movies_with_director_key(directors_name, directors_movies)
 end
 
 # ----------------    End of Your Code Region --------------------
