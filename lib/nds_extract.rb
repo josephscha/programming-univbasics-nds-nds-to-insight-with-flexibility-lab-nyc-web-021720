@@ -100,10 +100,11 @@ def movies_with_directors_set(source)
   # to have a :director_name key added to it.
   results = {}
   index = 0 
-  while index < collection.length do 
-    studios = collection[index][:studio]
-    gross_total = collection[index][:worldwide_gross]
-    if results[studio_name] == True
+  while index < source.length do 
+    directors = source[index]
+    directors_name = directors[:name]
+    directors_movie = directors[:movies]
+    results << movies_with
 end
 
 # ----------------    End of Your Code Region --------------------
